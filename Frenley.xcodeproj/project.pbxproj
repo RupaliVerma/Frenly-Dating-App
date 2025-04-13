@@ -1,0 +1,566 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		844A6F2D2C3FEB1E0023D6A4 /* FrenleyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844A6F2C2C3FEB1E0023D6A4 /* FrenleyApp.swift */; };
+		844A6F2F2C3FEB1E0023D6A4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844A6F2E2C3FEB1E0023D6A4 /* ContentView.swift */; };
+		844A6F312C3FEB210023D6A4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 844A6F302C3FEB210023D6A4 /* Assets.xcassets */; };
+		844A6F342C3FEB210023D6A4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 844A6F332C3FEB210023D6A4 /* Preview Assets.xcassets */; };
+		844A6F3C2C3FEB380023D6A4 /* TabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844A6F3B2C3FEB380023D6A4 /* TabBarView.swift */; };
+		844A6F3E2C3FEB5B0023D6A4 /* HomeScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844A6F3D2C3FEB5B0023D6A4 /* HomeScreenView.swift */; };
+		844A6F422C405B600023D6A4 /* CustomNavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844A6F412C405B600023D6A4 /* CustomNavigationView.swift */; };
+		844A6F442C4062EB0023D6A4 /* InterestPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844A6F432C4062EB0023D6A4 /* InterestPageView.swift */; };
+		8488C79B2C43D12900FF9C6C /* HomeViewContents.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8488C79A2C43D12900FF9C6C /* HomeViewContents.swift */; };
+		8488C79E2C45565D00FF9C6C /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8488C79D2C45565D00FF9C6C /* NetworkManager.swift */; };
+		8488C7A22C45582300FF9C6C /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8488C7A12C45582300FF9C6C /* UserModel.swift */; };
+		8488C7A42C4597F000FF9C6C /* HomeScreenViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8488C7A32C4597F000FF9C6C /* HomeScreenViewModel.swift */; };
+		8488C7A82C45B28600FF9C6C /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8488C7A72C45B28600FF9C6C /* Constants.swift */; };
+		8488C7AA2C45BE2B00FF9C6C /* ReusableViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8488C7A92C45BE2B00FF9C6C /* ReusableViews.swift */; };
+		8488C7AC2C45CBBF00FF9C6C /* SingleScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8488C7AB2C45CBBF00FF9C6C /* SingleScreenView.swift */; };
+		84D2B79C2C47A5C1005E34F7 /* Nunito-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 84D2B7862C47A5C1005E34F7 /* Nunito-Black.ttf */; };
+		84D2B79D2C47A5C1005E34F7 /* Nunito-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 84D2B7872C47A5C1005E34F7 /* Nunito-BlackItalic.ttf */; };
+		84D2B79E2C47A5C1005E34F7 /* Nunito-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 84D2B7882C47A5C1005E34F7 /* Nunito-Bold.ttf */; };
+		84D2B79F2C47A5C1005E34F7 /* Nunito-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 84D2B7892C47A5C1005E34F7 /* Nunito-BoldItalic.ttf */; };
+		84D2B7A02C47A5C1005E34F7 /* Nunito-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 84D2B78A2C47A5C1005E34F7 /* Nunito-ExtraBold.ttf */; };
+		84D2B7A12C47A5C1005E34F7 /* Nunito-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 84D2B78B2C47A5C1005E34F7 /* Nunito-ExtraBoldItalic.ttf */; };
+		84D2B7A22C47A5C1005E34F7 /* Nunito-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 84D2B78C2C47A5C1005E34F7 /* Nunito-ExtraLight.ttf */; };
+		84D2B7A32C47A5C1005E34F7 /* Nunito-ExtraLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 84D2B78D2C47A5C1005E34F7 /* Nunito-ExtraLightItalic.ttf */; };
+		84D2B7A42C47A5C1005E34F7 /* Nunito-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 84D2B78E2C47A5C1005E34F7 /* Nunito-Italic.ttf */; };
+		84D2B7A52C47A5C1005E34F7 /* Nunito-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 84D2B78F2C47A5C1005E34F7 /* Nunito-Light.ttf */; };
+		84D2B7A62C47A5C1005E34F7 /* Nunito-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 84D2B7902C47A5C1005E34F7 /* Nunito-LightItalic.ttf */; };
+		84D2B7A72C47A5C1005E34F7 /* Nunito-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 84D2B7912C47A5C1005E34F7 /* Nunito-Medium.ttf */; };
+		84D2B7A82C47A5C1005E34F7 /* Nunito-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 84D2B7922C47A5C1005E34F7 /* Nunito-MediumItalic.ttf */; };
+		84D2B7A92C47A5C1005E34F7 /* Nunito-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 84D2B7932C47A5C1005E34F7 /* Nunito-Regular.ttf */; };
+		84D2B7AA2C47A5C1005E34F7 /* Nunito-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 84D2B7942C47A5C1005E34F7 /* Nunito-SemiBold.ttf */; };
+		84D2B7AB2C47A5C1005E34F7 /* Nunito-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 84D2B7952C47A5C1005E34F7 /* Nunito-SemiBoldItalic.ttf */; };
+		84D2B7AC2C47A5C1005E34F7 /* Nunito-Italic-VariableFont_wght.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 84D2B7972C47A5C1005E34F7 /* Nunito-Italic-VariableFont_wght.ttf */; };
+		84D2B7AD2C47A5C1005E34F7 /* Nunito-VariableFont_wght.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 84D2B7982C47A5C1005E34F7 /* Nunito-VariableFont_wght.ttf */; };
+		84D2B7AE2C47A5C1005E34F7 /* OFL.txt in Resources */ = {isa = PBXBuildFile; fileRef = 84D2B7992C47A5C1005E34F7 /* OFL.txt */; };
+		84D2B7AF2C47A5C1005E34F7 /* README.txt in Resources */ = {isa = PBXBuildFile; fileRef = 84D2B79A2C47A5C1005E34F7 /* README.txt */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		844A6F292C3FEB1E0023D6A4 /* Frenley.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Frenley.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		844A6F2C2C3FEB1E0023D6A4 /* FrenleyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrenleyApp.swift; sourceTree = "<group>"; };
+		844A6F2E2C3FEB1E0023D6A4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		844A6F302C3FEB210023D6A4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		844A6F332C3FEB210023D6A4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		844A6F3B2C3FEB380023D6A4 /* TabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarView.swift; sourceTree = "<group>"; };
+		844A6F3D2C3FEB5B0023D6A4 /* HomeScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreenView.swift; sourceTree = "<group>"; };
+		844A6F412C405B600023D6A4 /* CustomNavigationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomNavigationView.swift; sourceTree = "<group>"; };
+		844A6F432C4062EB0023D6A4 /* InterestPageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterestPageView.swift; sourceTree = "<group>"; };
+		8488C79A2C43D12900FF9C6C /* HomeViewContents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewContents.swift; sourceTree = "<group>"; };
+		8488C79D2C45565D00FF9C6C /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		8488C7A12C45582300FF9C6C /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
+		8488C7A32C4597F000FF9C6C /* HomeScreenViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreenViewModel.swift; sourceTree = "<group>"; };
+		8488C7A52C45AA6100FF9C6C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		8488C7A72C45B28600FF9C6C /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		8488C7A92C45BE2B00FF9C6C /* ReusableViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReusableViews.swift; sourceTree = "<group>"; };
+		8488C7AB2C45CBBF00FF9C6C /* SingleScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleScreenView.swift; sourceTree = "<group>"; };
+		84D2B7862C47A5C1005E34F7 /* Nunito-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nunito-Black.ttf"; sourceTree = "<group>"; };
+		84D2B7872C47A5C1005E34F7 /* Nunito-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nunito-BlackItalic.ttf"; sourceTree = "<group>"; };
+		84D2B7882C47A5C1005E34F7 /* Nunito-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nunito-Bold.ttf"; sourceTree = "<group>"; };
+		84D2B7892C47A5C1005E34F7 /* Nunito-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nunito-BoldItalic.ttf"; sourceTree = "<group>"; };
+		84D2B78A2C47A5C1005E34F7 /* Nunito-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nunito-ExtraBold.ttf"; sourceTree = "<group>"; };
+		84D2B78B2C47A5C1005E34F7 /* Nunito-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nunito-ExtraBoldItalic.ttf"; sourceTree = "<group>"; };
+		84D2B78C2C47A5C1005E34F7 /* Nunito-ExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nunito-ExtraLight.ttf"; sourceTree = "<group>"; };
+		84D2B78D2C47A5C1005E34F7 /* Nunito-ExtraLightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nunito-ExtraLightItalic.ttf"; sourceTree = "<group>"; };
+		84D2B78E2C47A5C1005E34F7 /* Nunito-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nunito-Italic.ttf"; sourceTree = "<group>"; };
+		84D2B78F2C47A5C1005E34F7 /* Nunito-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nunito-Light.ttf"; sourceTree = "<group>"; };
+		84D2B7902C47A5C1005E34F7 /* Nunito-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nunito-LightItalic.ttf"; sourceTree = "<group>"; };
+		84D2B7912C47A5C1005E34F7 /* Nunito-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nunito-Medium.ttf"; sourceTree = "<group>"; };
+		84D2B7922C47A5C1005E34F7 /* Nunito-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nunito-MediumItalic.ttf"; sourceTree = "<group>"; };
+		84D2B7932C47A5C1005E34F7 /* Nunito-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nunito-Regular.ttf"; sourceTree = "<group>"; };
+		84D2B7942C47A5C1005E34F7 /* Nunito-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nunito-SemiBold.ttf"; sourceTree = "<group>"; };
+		84D2B7952C47A5C1005E34F7 /* Nunito-SemiBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nunito-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
+		84D2B7972C47A5C1005E34F7 /* Nunito-Italic-VariableFont_wght.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nunito-Italic-VariableFont_wght.ttf"; sourceTree = "<group>"; };
+		84D2B7982C47A5C1005E34F7 /* Nunito-VariableFont_wght.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nunito-VariableFont_wght.ttf"; sourceTree = "<group>"; };
+		84D2B7992C47A5C1005E34F7 /* OFL.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = OFL.txt; sourceTree = "<group>"; };
+		84D2B79A2C47A5C1005E34F7 /* README.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.txt; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		844A6F262C3FEB1E0023D6A4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		844A6F202C3FEB1E0023D6A4 = {
+			isa = PBXGroup;
+			children = (
+				844A6F2B2C3FEB1E0023D6A4 /* Frenley */,
+				844A6F2A2C3FEB1E0023D6A4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		844A6F2A2C3FEB1E0023D6A4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				844A6F292C3FEB1E0023D6A4 /* Frenley.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		844A6F2B2C3FEB1E0023D6A4 /* Frenley */ = {
+			isa = PBXGroup;
+			children = (
+				84D2B7832C47A588005E34F7 /* Font */,
+				8488C7A52C45AA6100FF9C6C /* Info.plist */,
+				844A6F2C2C3FEB1E0023D6A4 /* FrenleyApp.swift */,
+				8488C7A62C45B24C00FF9C6C /* Contants */,
+				8488C79C2C45564600FF9C6C /* Managers */,
+				844A6F402C404CCF0023D6A4 /* Utilities */,
+				844A6F3A2C3FEB2C0023D6A4 /* Views */,
+				844A6F2E2C3FEB1E0023D6A4 /* ContentView.swift */,
+				844A6F302C3FEB210023D6A4 /* Assets.xcassets */,
+				844A6F322C3FEB210023D6A4 /* Preview Content */,
+			);
+			path = Frenley;
+			sourceTree = "<group>";
+		};
+		844A6F322C3FEB210023D6A4 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				844A6F332C3FEB210023D6A4 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		844A6F3A2C3FEB2C0023D6A4 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				8488C7A02C4556DD00FF9C6C /* Models */,
+				8488C79F2C4556CF00FF9C6C /* ViewModels */,
+				844A6F3F2C404C9B0023D6A4 /* Extensions */,
+				844A6F3D2C3FEB5B0023D6A4 /* HomeScreenView.swift */,
+				844A6F3B2C3FEB380023D6A4 /* TabBarView.swift */,
+				844A6F432C4062EB0023D6A4 /* InterestPageView.swift */,
+				8488C7AB2C45CBBF00FF9C6C /* SingleScreenView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		844A6F3F2C404C9B0023D6A4 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				8488C79A2C43D12900FF9C6C /* HomeViewContents.swift */,
+				8488C7A92C45BE2B00FF9C6C /* ReusableViews.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		844A6F402C404CCF0023D6A4 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				844A6F412C405B600023D6A4 /* CustomNavigationView.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		8488C79C2C45564600FF9C6C /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				8488C79D2C45565D00FF9C6C /* NetworkManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		8488C79F2C4556CF00FF9C6C /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				8488C7A32C4597F000FF9C6C /* HomeScreenViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		8488C7A02C4556DD00FF9C6C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				8488C7A12C45582300FF9C6C /* UserModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		8488C7A62C45B24C00FF9C6C /* Contants */ = {
+			isa = PBXGroup;
+			children = (
+				8488C7A72C45B28600FF9C6C /* Constants.swift */,
+			);
+			path = Contants;
+			sourceTree = "<group>";
+		};
+		84D2B7832C47A588005E34F7 /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				84D2B79B2C47A5C1005E34F7 /* Nunito */,
+			);
+			path = Font;
+			sourceTree = "<group>";
+		};
+		84D2B7962C47A5C1005E34F7 /* static */ = {
+			isa = PBXGroup;
+			children = (
+				84D2B7862C47A5C1005E34F7 /* Nunito-Black.ttf */,
+				84D2B7872C47A5C1005E34F7 /* Nunito-BlackItalic.ttf */,
+				84D2B7882C47A5C1005E34F7 /* Nunito-Bold.ttf */,
+				84D2B7892C47A5C1005E34F7 /* Nunito-BoldItalic.ttf */,
+				84D2B78A2C47A5C1005E34F7 /* Nunito-ExtraBold.ttf */,
+				84D2B78B2C47A5C1005E34F7 /* Nunito-ExtraBoldItalic.ttf */,
+				84D2B78C2C47A5C1005E34F7 /* Nunito-ExtraLight.ttf */,
+				84D2B78D2C47A5C1005E34F7 /* Nunito-ExtraLightItalic.ttf */,
+				84D2B78E2C47A5C1005E34F7 /* Nunito-Italic.ttf */,
+				84D2B78F2C47A5C1005E34F7 /* Nunito-Light.ttf */,
+				84D2B7902C47A5C1005E34F7 /* Nunito-LightItalic.ttf */,
+				84D2B7912C47A5C1005E34F7 /* Nunito-Medium.ttf */,
+				84D2B7922C47A5C1005E34F7 /* Nunito-MediumItalic.ttf */,
+				84D2B7932C47A5C1005E34F7 /* Nunito-Regular.ttf */,
+				84D2B7942C47A5C1005E34F7 /* Nunito-SemiBold.ttf */,
+				84D2B7952C47A5C1005E34F7 /* Nunito-SemiBoldItalic.ttf */,
+			);
+			path = static;
+			sourceTree = "<group>";
+		};
+		84D2B79B2C47A5C1005E34F7 /* Nunito */ = {
+			isa = PBXGroup;
+			children = (
+				84D2B7962C47A5C1005E34F7 /* static */,
+				84D2B7972C47A5C1005E34F7 /* Nunito-Italic-VariableFont_wght.ttf */,
+				84D2B7982C47A5C1005E34F7 /* Nunito-VariableFont_wght.ttf */,
+				84D2B7992C47A5C1005E34F7 /* OFL.txt */,
+				84D2B79A2C47A5C1005E34F7 /* README.txt */,
+			);
+			name = Nunito;
+			path = ../../../../Downloads/Nunito;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		844A6F282C3FEB1E0023D6A4 /* Frenley */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 844A6F372C3FEB210023D6A4 /* Build configuration list for PBXNativeTarget "Frenley" */;
+			buildPhases = (
+				844A6F252C3FEB1E0023D6A4 /* Sources */,
+				844A6F262C3FEB1E0023D6A4 /* Frameworks */,
+				844A6F272C3FEB1E0023D6A4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Frenley;
+			productName = Frenley;
+			productReference = 844A6F292C3FEB1E0023D6A4 /* Frenley.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		844A6F212C3FEB1E0023D6A4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					844A6F282C3FEB1E0023D6A4 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+				};
+			};
+			buildConfigurationList = 844A6F242C3FEB1E0023D6A4 /* Build configuration list for PBXProject "Frenley" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 844A6F202C3FEB1E0023D6A4;
+			productRefGroup = 844A6F2A2C3FEB1E0023D6A4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				844A6F282C3FEB1E0023D6A4 /* Frenley */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		844A6F272C3FEB1E0023D6A4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84D2B7AE2C47A5C1005E34F7 /* OFL.txt in Resources */,
+				84D2B79F2C47A5C1005E34F7 /* Nunito-BoldItalic.ttf in Resources */,
+				84D2B7AF2C47A5C1005E34F7 /* README.txt in Resources */,
+				84D2B7A32C47A5C1005E34F7 /* Nunito-ExtraLightItalic.ttf in Resources */,
+				84D2B7A52C47A5C1005E34F7 /* Nunito-Light.ttf in Resources */,
+				84D2B7AA2C47A5C1005E34F7 /* Nunito-SemiBold.ttf in Resources */,
+				84D2B7A82C47A5C1005E34F7 /* Nunito-MediumItalic.ttf in Resources */,
+				84D2B7A42C47A5C1005E34F7 /* Nunito-Italic.ttf in Resources */,
+				84D2B7A72C47A5C1005E34F7 /* Nunito-Medium.ttf in Resources */,
+				844A6F342C3FEB210023D6A4 /* Preview Assets.xcassets in Resources */,
+				84D2B7AD2C47A5C1005E34F7 /* Nunito-VariableFont_wght.ttf in Resources */,
+				84D2B79E2C47A5C1005E34F7 /* Nunito-Bold.ttf in Resources */,
+				84D2B7A22C47A5C1005E34F7 /* Nunito-ExtraLight.ttf in Resources */,
+				84D2B7A12C47A5C1005E34F7 /* Nunito-ExtraBoldItalic.ttf in Resources */,
+				84D2B7A92C47A5C1005E34F7 /* Nunito-Regular.ttf in Resources */,
+				84D2B7AB2C47A5C1005E34F7 /* Nunito-SemiBoldItalic.ttf in Resources */,
+				84D2B7A62C47A5C1005E34F7 /* Nunito-LightItalic.ttf in Resources */,
+				844A6F312C3FEB210023D6A4 /* Assets.xcassets in Resources */,
+				84D2B79C2C47A5C1005E34F7 /* Nunito-Black.ttf in Resources */,
+				84D2B79D2C47A5C1005E34F7 /* Nunito-BlackItalic.ttf in Resources */,
+				84D2B7AC2C47A5C1005E34F7 /* Nunito-Italic-VariableFont_wght.ttf in Resources */,
+				84D2B7A02C47A5C1005E34F7 /* Nunito-ExtraBold.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		844A6F252C3FEB1E0023D6A4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				844A6F2F2C3FEB1E0023D6A4 /* ContentView.swift in Sources */,
+				8488C7AC2C45CBBF00FF9C6C /* SingleScreenView.swift in Sources */,
+				8488C7A82C45B28600FF9C6C /* Constants.swift in Sources */,
+				8488C79B2C43D12900FF9C6C /* HomeViewContents.swift in Sources */,
+				8488C7A22C45582300FF9C6C /* UserModel.swift in Sources */,
+				844A6F442C4062EB0023D6A4 /* InterestPageView.swift in Sources */,
+				844A6F2D2C3FEB1E0023D6A4 /* FrenleyApp.swift in Sources */,
+				844A6F3C2C3FEB380023D6A4 /* TabBarView.swift in Sources */,
+				8488C7AA2C45BE2B00FF9C6C /* ReusableViews.swift in Sources */,
+				8488C79E2C45565D00FF9C6C /* NetworkManager.swift in Sources */,
+				844A6F3E2C3FEB5B0023D6A4 /* HomeScreenView.swift in Sources */,
+				844A6F422C405B600023D6A4 /* CustomNavigationView.swift in Sources */,
+				8488C7A42C4597F000FF9C6C /* HomeScreenViewModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		844A6F352C3FEB210023D6A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		844A6F362C3FEB210023D6A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		844A6F382C3FEB210023D6A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Frenley/Preview Content\"";
+				DEVELOPMENT_TEAM = MTJ45L5JW9;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Frenley/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Nunito-Regular";
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = rupaliVerma.Frenley;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		844A6F392C3FEB210023D6A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Frenley/Preview Content\"";
+				DEVELOPMENT_TEAM = MTJ45L5JW9;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Frenley/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Nunito-Regular";
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = rupaliVerma.Frenley;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		844A6F242C3FEB1E0023D6A4 /* Build configuration list for PBXProject "Frenley" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				844A6F352C3FEB210023D6A4 /* Debug */,
+				844A6F362C3FEB210023D6A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		844A6F372C3FEB210023D6A4 /* Build configuration list for PBXNativeTarget "Frenley" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				844A6F382C3FEB210023D6A4 /* Debug */,
+				844A6F392C3FEB210023D6A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 844A6F212C3FEB1E0023D6A4 /* Project object */;
+}
